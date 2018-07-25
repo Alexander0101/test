@@ -1,0 +1,293 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-size: 16px;
+	color: #000;
+}
+
+h1, h2, h3 {
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-size: 2rem;
+	margin-top: 45px;
+	margin-bottom: 10px;
+}
+
+h3 {
+	font-size: 1.1rem;
+}
+
+
+.pd {
+	padding: 15px 0;
+}
+
+.header {
+	padding: 10px 0px;
+	background: url(../img/logistics_bg-1.jpg) center center no-repeat;
+	background-size: cover;
+}
+
+.logo {
+	width: 100%;
+	padding: 0 35px;
+}
+
+.logo_text {
+	color: #fff;
+	font-size: 0.8rem;
+}
+
+.serch {
+	position: relative;
+}
+
+.serch_text {
+	margin-top: 25px;
+	border: 1px solid #c1c1cd;
+    border-radius: 3px;
+    padding: 8px 15px;
+    background: rgba(0,0,0,0.3);
+    width: 265px;
+    color: #fff;
+}
+
+.serch_btn {
+	position: absolute;
+	top: 30px;
+    left: 85%;
+	display: inline-block;
+	width: 24px;
+    height: 24px;
+    vertical-align: middle;
+    background: url(../img/serch.png) no-repeat;
+    background-size: cover;
+    border: none;
+}
+
+.navigation li {
+	display: inline-block;
+}
+
+.navigation a {
+	display: inline-block;
+	margin-right: 25px;
+	font-size: 0.9rem;
+	color: #fff;
+}
+
+.navigation a:hover {
+	color: #0096db;
+}
+
+.contact_img {
+	height: 24px;
+	width: 24px;
+	background: url(../img/phone.png) center center no-repeat;
+}
+
+.contact_numbers {
+	color: #fff;
+}
+
+.contact_numbers li {
+	display: inline-block;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	padding: 0 10px;
+	border-right: 2px solid #fff;
+	font-size: 1.5rem; 
+}
+
+.contact_numbers li:last-child {
+	border-right: none;
+}
+
+.contact_info span {
+	font-size: 0.8rem;
+	color: #fff;
+}
+
+.contact_info a {
+	margin-left: 25px;
+	font-size: 0.8rem;
+	text-decoration: underline;
+	color: #feda00;
+}
+
+.products {
+	margin-top: 20px;
+	margin-bottom: 45px;
+}
+
+.nav__item {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  vertical-align: middle;
+  min-height: 100%;
+  width: 16.2%;
+  padding: 6px 0;
+  cursor: pointer;
+}
+
+.nav__ico {
+  position: absolute;
+  top: 50%;
+  margin-top: -13px;
+}
+
+.nav__text {
+  padding-left: 30px;
+  overflow: hidden;
+  text-transform: uppercase;
+}
+
+
+.products_sprite {
+	display: block;
+	margin: 0 auto;
+	width: 30px;
+	height: 30px;
+	background-image: url(../pic/spritesheet2.png);
+}
+
+.products_img_1 {
+	background-position: 15px 15px;
+}
+
+.products_img_2 {
+	background-position: 75px 15px;
+}
+
+.products_img_3 {
+	background-position: 147px 15px;
+}
+
+.products_img_4 {
+	background-position: 147px 85px;
+}
+
+.products_img_5 {
+	background-position: 75px 83px;
+}
+
+.products_img_6 {
+	background-position: 15px 12px;
+}
+
+.menu {
+	color: #fff;
+}
+
+.menu a {
+	color: #fff;
+}
+
+.name_page {
+	margin-top: 60px;
+	color: #fff;
+}
+
+.name_page h1 {
+	font-size: 2.1rem;
+	line-height: 2.5rem;
+}
+
+.name_page p {
+	font-size: 0.9rem;
+}
+
+.city {
+	width: 275px;
+	margin: 50px auto 65px;
+	border: 1px solid #feda00;
+	padding: 12px;
+	overflow: hidden;
+	background: rgba(0,0,0,0.4);
+}
+
+.city_img {
+	float: left;
+}
+
+.city_text {
+	float: right;
+	margin-top: 12px;
+	color: #feda00;
+	
+}
+
+.city_text__default {
+	font-weight: bold;
+	line-height: 1.3rem;
+}
+
+.main p {
+	line-height: 1.2rem;
+}
+
+.answer {
+	margin-top: 20px;
+}
+
+.answer_default {
+	font-weight: bold;
+}
+
+.sprite {
+	margin: 0 auto;
+	width: 100px;
+	height: 100px;
+	background-image: url(../pic/spritesheet.png);
+}
+
+.money {
+	background-position: 545px -5px;
+}
+
+.point-of-service {
+	background-position: -555px 105px;
+}
+
+.credit-card {
+	background-position: -5px -5px;
+}
+
+.piggy-bank {
+	background-position: -5px 105px;
+}
+
+.payment {
+	margin-top: 20px;
+	font-size: 0.8rem;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.payment_lh {
+	line-height: 1.3rem;
+}
+
+.payment_lh i {
+	display: inline-block;
+	padding-bottom: 1px;
+	border-bottom: 1px solid #000;
+}
+
+.payment_type {
+	margin-bottom: 15px;
+}
+
+.payment_type__default {
+	font-weight: bold;
+	line-height: 1.7rem;
+}
+
+
+
